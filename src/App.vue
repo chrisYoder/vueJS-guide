@@ -5,18 +5,21 @@
     </h1>
     <section-one/>
     <section-two/>
+    <section-three/>
   </div>
 </template>
 
 <script>
 import SectionOne from "./components/TemplateSyntax/SectionOne";
-import SectionTwo from './components/ComputedPropertiesAndWatchers/SectionTwo';
+import SectionTwo from "./components/ComputedPropertiesAndWatchers/SectionTwo";
+import SectionThree from "./components/ClassStyleBindings/SectionThree";
 
 export default {
   name: "App",
   components: {
-    SectionOne, 
-    SectionTwo
+    SectionOne,
+    SectionTwo,
+    SectionThree
   }
 };
 </script>

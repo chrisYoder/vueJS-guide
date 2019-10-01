@@ -8,7 +8,7 @@
     <h3>Binding Inline Styles</h3>
     <object-syntax-inline/>
     <array-syntax-inline/>
-    <auto-prefixing/>
+    <auto-prefix/>
     <multiple-values/>
   </div>
 </template>
@@ -23,7 +23,7 @@ import AutoPrefix from "./BindingInlineStyles/AutoPrefix";
 import MultipleValues from "./BindingInlineStyles/MultipleValue";
 
 export default {
-  name: "Section 3",
+  name: "SectionThree",
   components: {
     ObjectSyntax,
     ArraySyntax,

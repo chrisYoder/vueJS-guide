@@ -3,9 +3,11 @@
     <h1>
       <a href="https://vuejs.org/v2/guide/">Vue.js Official Guide</a>
     </h1>
+    <section-five/>
     <section-one/>
     <section-two/>
     <section-three/>
+    <section-four/>
   </div>
 </template>
 
@@ -13,13 +15,17 @@
 import SectionOne from "./components/TemplateSyntax/SectionOne";
 import SectionTwo from "./components/ComputedPropertiesAndWatchers/SectionTwo";
 import SectionThree from "./components/ClassStyleBindings/SectionThree";
+import SectionFour from "./components/ConditionalRendering/SectionFour";
+import SectionFive from "./components/ListRendering/SectionFive";
 
 export default {
   name: "App",
   components: {
     SectionOne,
     SectionTwo,
-    SectionThree
+    SectionThree,
+    SectionFour,
+    SectionFive
   }
 };
 </script>
